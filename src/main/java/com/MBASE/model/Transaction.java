@@ -5,7 +5,7 @@ public class Transaction {
 	int CustomerId;
 	double LoanAmount;
 	int LoanProductId;
-	
+	public Transaction() {}
 	public Transaction(int loanId, int customerId, double loanAmount, int loanProductId) {
 		super();
 		LoanId = loanId;
